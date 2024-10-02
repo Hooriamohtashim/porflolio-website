@@ -322,7 +322,7 @@
     }
 
     .images {
-        display: block !important;
+        display: flex !important;
         flex-direction: column !important;
         justify-content: center !important;
 
@@ -330,7 +330,8 @@
 
     .image-container {
         display: flex !important;
-
+        flex-direction: column !important;
+        justify-content: center !important;
 
 
     }

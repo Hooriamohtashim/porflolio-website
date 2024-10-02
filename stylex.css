@@ -162,7 +162,7 @@ img {
 	}
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 600px) {
 
 	.heading {
 		padding: 0px;
@@ -180,9 +180,22 @@ img {
 		display: block;
 		float: right;
 	}
-
+    .container2{
+		display: flex !important;
+		flex-direction: column !important;
+		width: 98% !important;
+	}
+	.footer{
+		display: flex !important;
+		flex-direction: column !important;
+        width:98% 
+	}
+	.site-banner {
+		width: 98% !important;
+	}
 	footer {
 		height: 100% !important;
+		width: 99% !important;
 	}
 }
 
