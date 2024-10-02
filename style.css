@@ -1,0 +1,429 @@
+/* Footer styles... */
+
+.footer {
+    background-color: #83e283 !important;
+    color: #fff;
+    margin-top: 40px;
+    height: 380px;
+}
+
+.footer h5 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #084c04;
+}
+
+.footer .form-control {
+    background-color: #fff;
+    color: #000;
+}
+
+.footer .btn-warning {
+    background-color: #29AB87;
+    border: none;
+    color: #fff;
+}
+
+.footer .btn-warning:hover {
+    background-color: #34ab29;
+    color: #fff;
+}
+
+.footer .social-links a {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+.footer .social-links a:hover {
+    color: #5bd553;
+}
+
+.footer-divider {
+    border-top: 1px solid #666;
+}
+
+.footer p {
+    margin-bottom: 0;
+}
+
+.footer .list-inline-item a {
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+.footer .list-inline-item a:hover {
+    color: #084c04;
+}
+
+/* Hero Section Styling */
+.hero-section {
+    background: #fff;
+
+    padding: 60px 0;
+
+    position: relative;
+
+}
+
+.img-animation {
+    width: 550px;
+    height: 500px;
+    position: absolute;
+    animation-name: updown;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    transition: all .7s;
+}
+
+@keyframes updown {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-60px)
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+
+    font-weight: 700;
+
+    color: #333;
+
+    margin-bottom: 20px;
+    opacity: 0;
+
+    transform: translateY(-20px);
+
+    animation: fadeInUp 1s forwards;
+
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+
+    color: #666;
+
+    margin-bottom: 30px;
+
+    opacity: 0;
+
+    transform: translateY(-20px);
+
+    animation: fadeInUp 1s forwards 0.5s;
+
+}
+
+.hero-section .btn {
+    padding: 10px 30px;
+
+    font-size: 1.1rem;
+
+    opacity: 0;
+
+    transform: translateY(10px);
+
+    animation: fadeInUp 1s forwards 1s;
+
+    background-color: #23d89c;
+    border-color: #23d89c;
+}
+
+
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+
+        transform: translateY(0);
+
+    }
+}
+
+
+.btn-primary {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #39b300;
+
+    transform: translateY(-3px);
+
+}
+
+
+.main-section {
+    background-color: #f0f8f5;
+    padding: 50px 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contact-card {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 50px auto;
+}
+
+
+.contact-card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+
+.btn-submit {
+    background-color: #29AB87;
+    color: #fff;
+    border: none;
+}
+
+.btn-submit:hover {
+    background-color: #34ab29;
+}
+
+.img-btn {
+    background-color: #29AB87;
+}
+
+
+
+
+/* Modal Custom Styling */
+.modal-content {
+    background-color: #f3fdf7;
+    /* Light green background */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.modal-header {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.modal-title {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #2f8f4e;
+    /* Dark green */
+}
+
+.modal-body {
+    padding-top: 0;
+}
+
+.modal-footer {
+    border-top: none;
+}
+
+.close {
+    font-size: 1.5rem;
+    color: #4a945e;
+    /* Medium green */
+    opacity: 0.9;
+}
+
+.close:hover {
+    color: #2f8f4e;
+    /* Darker green on hover */
+    opacity: 1;
+}
+
+/* Contact Form Styling */
+.modal-body form {
+    width: 100%;
+}
+
+.modal-body .form-group label {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #3b7d48;
+    /* Dark green */
+}
+
+.modal-body .form-control {
+    border-radius: 5px;
+    border: 1px solid #c2e2ca;
+    /* Light green border */
+    font-size: 1rem;
+    padding: 10px;
+    color: #4a945e;
+    /* Medium green text */
+    background-color: #f9fcfa;
+    /* Very light green */
+}
+
+.modal-body .form-control:focus {
+    border-color: #34ab29;
+    /* Bright green */
+    box-shadow: 0px 0px 8px rgba(52, 171, 41, 0.25);
+    /* Soft green shadow */
+}
+
+.modal-body .btn-primary {
+    background-color: #29ab87;
+    /* Medium green */
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 10px;
+    width: 100%;
+}
+
+.modal-body .btn-primary:hover {
+    background-color: #218e68;
+    /* Darker green on hover */
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+    .modal-dialog {
+        width: 100%;
+        margin: 10px;
+    }
+
+    footer {
+        height: 100% !important;
+    }
+
+    .site-banner {
+        display: none;
+
+    }
+
+    .contact-btn {
+        display: none;
+    }
+
+    .images {
+        display: block !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+
+    }
+
+    .image-container {
+        display: flex !important;
+
+
+
+    }
+
+    .container-img {
+        margin-bottom: 50px;
+    }
+}
+
+/*nav*/
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+
+}
+
+.main-div {
+    padding: 50px
+}
+
+.main-div2 {
+    background-color: #83e282;
+}
+
+.text {
+    font-size: 20px;
+}
+
+li {
+    font-size: 4vh;
+    color: black;
+    transform: scale(0.8);
+    transition: transform 0.3s ease;
+}
+
+li:hover {
+    transform: scale(1);
+}
+
+.logo {
+    padding: 30px;
+
+
+}
+
+.Services {
+    background: transparent;
+    border: 1px solid #83e282;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+
+.images {
+    display: flex;
+    margin-left: 80px;
+
+
+}
+
+
+.box-img {
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    transform: scale(0.8);
+    transition: transform 0.3s ease;
+
+}
+
+.box-img:hover {
+
+    transform: scale(1);
+}
+
+.boxes {
+    width: 250px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.Experties {
+    font-size: 50px;
+    font-weight: 700;
+    color: #29AB87 !important;
+}
+
+
+
+hr {
+    margin-left: 100px;
+    margin-right: 100px;
+}

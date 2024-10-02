@@ -1,0 +1,192 @@
+/* SEO,SMM,GD,WD CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+}
+
+.info {
+  animation: fadeInLeft 1s ease-out;
+}
+
+.info h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.info p,
+.info ul {
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.image-section {
+  text-align: center;
+  animation: fadeInRight 1s ease-out;
+}
+
+.image-section img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+/* Animations */
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/*nav*/
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+
+}
+
+.main-div {
+  padding: 50px
+}
+
+.main-div2 {
+  background-color: #83e282;
+}
+
+.text {
+  font-size: 20px;
+}
+
+li {
+  font-size: 4vh;
+  color: black;
+  transform: scale(0.8);
+  transition: transform 0.3s ease;
+}
+
+li:hover {
+  transform: scale(1);
+}
+
+.logo {
+  padding: 30px;
+
+
+}
+
+.Services {
+  background: transparent;
+  border: 1px solid #83e282;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+
+
+
+
+/* Footer styles... */
+
+.footer {
+  background-color: #83e283;
+  color: #fff;
+  margin-top: 40px;
+  height: 380px;
+}
+
+.footer h5 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #084c04;
+}
+
+.footer .form-control {
+  background-color: #fff;
+  color: #000;
+}
+
+.footer .btn-warning {
+  background-color: #29AB87;
+  border: none;
+  color: #fff;
+  width: 260px;
+}
+
+.footer .btn-warning:hover {
+  background-color: #34ab29;
+  /* Change the hover color here */
+  color: #fff;
+}
+
+.footer .social-links a {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+
+.footer .social-links a:hover {
+  color: #5bd553;
+}
+
+.footer-divider {
+  border-top: 1px solid #666;
+}
+
+.footer p {
+  margin-bottom: 0;
+}
+
+.footer .list-inline-item a {
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+.footer .list-inline-item a:hover {
+  color: #084c04;
+}
+
+@media (max-width:600px) {
+  .footer {
+    height: 100%
+  }
+
+  li {
+    color: black
+  }
+}
