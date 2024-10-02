@@ -78,7 +78,6 @@
 .img-animation {
     width: 550px;
     height: 500px;
-    position: absolute;
     animation-name: updown;
     animation-duration: 4s;
     animation-iteration-count: infinite;
